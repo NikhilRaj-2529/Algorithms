@@ -3,6 +3,13 @@ list and moving it to the sorted portion of the list.
 The algorithm repeatedly selects the smallest (or largest) element from the unsorted portion of the list and swaps it with the first element of the unsorted part.
 This process is repeated for the remaining unsorted portion until the entire list is sorted.
 
+Time Complexity:
+Best -> O(n^2)
+Average -> O(n^2)
+Worst -> O(n^2)
+
+Program:
+========
 #include <bits/stdc++.h>
 using namespace std;
 void Selection_Sort(vector<int> &arr , int n){
